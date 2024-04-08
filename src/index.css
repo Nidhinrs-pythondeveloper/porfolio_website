@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+html{background-color: #2d2d2d;}
+
+
+
+/* HEADER */
+header a {
+  text-decoration: none;
+}
+
+header {
+  padding: 0 20px;
+  background-color: #1d1f1d;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0%;
+}
+
+.header-wrapper {
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.header-wrapper a {
+  color: #09c372;
+}
+
+.header-wrapper ul {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header-wrapper ul a {
+  color: white;
+}
+
+.header-wrapper ul li {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+
+ul li:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+button {
+  background: #1a53ff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 12px;
+  cursor: pointer;
+}
+
+
+/* HERO */
+
+.hero p {
+  margin-top: 10px;
+  opacity: 0.6;
+  font-size: 1.3rem;
+}
+
+.hero {
+  text-align: center;
+  height: 60vh;
+  background: #181f26;
+  margin-bottom: 80px;
+  margin-top: -70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  max-width: 700px;
+}
+
+
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 9999px;
+  border: 5px solid #1a53ff;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+/* ABOUT */
+.about-wrapper,
+.project-wrapper,
+.socials-wrapper {
+  max-width: 1000px;
+  margin: 100px auto;
+  margin-top: 0;
+  padding: 20px;
+}
+
+.about-wrapper {
+  justify-content: center;
+  display: flex;
+}
+
+.about-wrapper .col p {
+  line-height: 32px;
+  text-align: justify;
+}
+
+.about-wrapper .col {
+  flex: 1;
+}
+
+.about-wrapper .skills {
+  margin-left: 50px;
+}
+
+.about-wrapper .skills ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-wrapper .skills ul li {
+  border: 2px solid #565454;
+  width: max-content;
+  padding: 3px 10px;
+  border-radius: 12px;
+  margin: 7px;
+  margin-left: 0;
+  font-weight: 500;
+}
+
+/* PROJECTS */
+.projects ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects ul li {
+  background: #181f26;
+  margin: 13px;
+  margin-left: 0;
+  padding: 10px;
+  border-radius: 15px;
+  width: 300px;
+}
+
+.projects ul li img {
+  border-radius: 15px;
+  margin-bottom: 17px;
+  width: 100%;
+}
+
+/* SOCIALS */
+.socials-wrapper {
+  line-height: 30px;
+}
+
+.socials-wrapper .social-icons img {
+  border: 2px solid #2d2d2d;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 6px;
+  border-radius: 12px;
+}
+
+.socials-wrapper .social-icons img:hover {
+  background: #2d2d2d;
+}
